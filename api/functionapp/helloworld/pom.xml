@@ -15,6 +15,9 @@
         <azure-functions-java-library.version>3.1.0</azure-functions-java-library.version>
         <!-- plugins -->
         <azure-functions-maven-plugin.version>1.33.0</azure-functions-maven-plugin.version>
+        <groupId>examples.azure</groupId>
+        <artifactId>project</artifactId>
+        <version>1-SNAPSHOT</version>
     </properties>
     <build>
         <plugins>
