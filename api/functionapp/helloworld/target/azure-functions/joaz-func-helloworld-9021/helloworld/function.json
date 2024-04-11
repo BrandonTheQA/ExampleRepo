@@ -1,0 +1,15 @@
+{
+  "scriptFile" : "../functionapp-helloworld-1-SNAPSHOT.jar",
+  "entryPoint" : "helloworld.HelloWorldFunction.run",
+  "bindings" : [ {
+    "type" : "httpTrigger",
+    "direction" : "in",
+    "name" : "request",
+    "methods" : [ "GET" ],
+    "authLevel" : "ANONYMOUS"
+  }, {
+    "type" : "http",
+    "direction" : "out",
+    "name" : "$return"
+  } ]
+}
